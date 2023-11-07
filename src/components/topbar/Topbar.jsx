@@ -12,14 +12,15 @@ export default function Topbar() {
        </div>
        <div className="topbarCenter">
         <div className="searchbar">
-          <SearchIcon/>
-          <input placeholder="search for friends,listings, or more" className="searchinput" />
+          <SearchIcon className="searchIcon"/>
+          <input placeholder="search for friends,listings, or more" className="searchInput" />
         </div>
         </div>
        <div className="topbarRight">
         <div className="topbarLinks">
           <span className="topbarLink">Homepage</span>
           <span className="topbarLink">Timeline</span>
+        </div>
           <div className="topbarIcons">
             <div className="topbarIconItem">
               <PersonIcon/>
@@ -34,9 +35,9 @@ export default function Topbar() {
               <span className="topbarIconBadge">1</span>
             </div>
           </div>
-          <img src="" alt="" className="topbar img" />
+          <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
         </div>
-       </div>
-        </div>
+    </div>
+        
   )
 }
