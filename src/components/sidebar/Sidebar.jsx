@@ -1,5 +1,11 @@
 import "./sidebar.css";
 import FeedIcon from '@mui/icons-material/Feed';
+import RssFeedIcon from '@mui/icons-material/RssFeed';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import GroupsIcon from '@mui/icons-material/Groups';
+import BookmarkIcon from '@mui/icons-material/Bookmark';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import WorkIcon from '@mui/icons-material/Work';
 
 export default function Sidebar() {
   return (
@@ -7,8 +13,32 @@ export default function Sidebar() {
     <div className="sidebarWrapper">
       <ul className="sidebarList">
         <li className="sidebarListItem">
-          <FeedIcon className="sidebarIcon"/>
+          <RssFeedIcon className="sidebarIcon"/>
           <span className="sidebarListItemText">Feed</span>
+        </li>
+        <li className="sidebarListItem">
+          <FeedIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Chat</span>
+        </li>
+        <li className="sidebarListItem">
+          <VideoLibraryIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Videos</span>
+        </li>
+        <li className="sidebarListItem">
+          <GroupsIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Group</span>
+        </li>
+        <li className="sidebarListItem">
+          <BookmarkIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Bookmarks</span>
+        </li>
+        <li className="sidebarListItem">
+          <HelpOutlineIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Questions</span>
+        </li>
+        <li className="sidebarListItem">
+          <WorkIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Jobs</span>
         </li>
       </ul>
     </div>
