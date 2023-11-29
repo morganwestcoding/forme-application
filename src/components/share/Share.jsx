@@ -1,5 +1,8 @@
 import './share.css';
 import PermMediaIcon from '@mui/icons-material/PermMedia';
+import LabelIcon from '@mui/icons-material/Label';
+import AddLocationIcon from '@mui/icons-material/AddLocation';
+import AddReactionIcon from '@mui/icons-material/AddReaction';
 
 export default function Share() {
   return (
@@ -17,16 +20,16 @@ export default function Share() {
                     <span className="shareOptionText">Photo or Video </span>
                     </div>
                     <div className='shareOption'>
-                    <PermMediaIcon className='shareIcon'/>
-                    <span className="shareOptionText">Photo or Video </span>
+                    <LabelIcon className='shareIcon'/>
+                    <span className="shareOptionText">Tag </span>
                     </div>
                     <div className='shareOption'>
-                    <PermMediaIcon className='shareIcon'/>
-                    <span className="shareOptionText">Photo or Video </span>
+                    <AddLocationIcon className='shareIcon'/>
+                    <span className="shareOptionText">Location</span>
                     </div>
                     <div className='shareOption'>
-                    <PermMediaIcon className='shareIcon'/>
-                    <span className="shareOptionText">Photo or Video </span>
+                    <AddReactionIcon className='shareIcon'/>
+                    <span className="shareOptionText">Mood</span>
                     </div>
                 </div>
             </div>
