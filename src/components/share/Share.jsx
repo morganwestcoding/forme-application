@@ -16,19 +16,19 @@ export default function Share() {
             <div className="shareBottom">
                 <div className="shareOptions">
                     <div className='shareOption'>
-                    <PermMediaIcon className='shareIcon'/>
+                    <PermMediaIcon htmlColor="Black" className='shareIcon'/>
                     <span className="shareOptionText">Photo or Video </span>
                     </div>
                     <div className='shareOption'>
-                    <LabelIcon className='shareIcon'/>
+                    <LabelIcon htmlColor="Black" className='shareIcon'/>
                     <span className="shareOptionText">Tag </span>
                     </div>
                     <div className='shareOption'>
-                    <AddLocationIcon className='shareIcon'/>
+                    <AddLocationIcon htmlColor="Black" className='shareIcon'/>
                     <span className="shareOptionText">Location</span>
                     </div>
                     <div className='shareOption'>
-                    <AddReactionIcon className='shareIcon'/>
+                    <AddReactionIcon htmlColor="Black" className='shareIcon'/>
                     <span className="shareOptionText">Mood</span>
                     </div>
                 </div>
