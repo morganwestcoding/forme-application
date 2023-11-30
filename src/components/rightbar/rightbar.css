@@ -70,4 +70,22 @@
   .rightbarUserName{
     font-weight: 500;
   }
+
+  .rightbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
  
