@@ -36,6 +36,7 @@
   position: sticky; /* Add this line to make the tabs sticky */
   top: 50px; /* Adjust this value as needed to be below your topbar */
   z-index: 10;
+  transition: top 0.6s ease, opacity 0.6s ease; 
   
 }
 
@@ -123,6 +124,12 @@
   border-radius: 8px 0 0 0;
 }
 
+.collapsed {
+  top: -100%; /* Or the required amount to hide the tabs */
+  opacity: 0; /* Makes the container fade out */
+  transition: top 0.6s ease, opacity 0.6s ease; /* Smooth transition for the collapsing action */
+}
+
 .collapsed ul {
   display: none; /* Hide the tabs */
 }
@@ -137,7 +144,7 @@
 }
 
 .arrow {
-  transition: transform 0.3s ease;
+  transition: transform 0.6s ease;
 }
 
 .arrow.up {
