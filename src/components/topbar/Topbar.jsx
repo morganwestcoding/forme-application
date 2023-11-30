@@ -8,12 +8,14 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
        <div className="topbarLeft">
-        <span className="logo">ForMe Social</span>
+        <span className="logo">
+          <img src="/assets/logo-white.png" alt=""/>
+        </span>
        </div>
        <div className="topbarCenter">
         <div className="searchbar">
           <SearchIcon className="searchIcon"/>
-          <input placeholder="search for friends,listings, or more" className="searchInput" />
+          <input placeholder="" className="searchInput" />
         </div>
         </div>
        <div className="topbarRight">
