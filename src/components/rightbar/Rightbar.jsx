@@ -34,11 +34,11 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">From:</span>
-            <span className="rightbarInfoValue">Madrid</span>
+            <span className="rightbarInfoValue">New York</span>
           </div>
           <div className="rightbarInfoItem">
-            <span className="rightbarInfoKey">Relationship:</span>
-            <span className="rightbarInfoValue">Single</span>
+            <span className="rightbarInfoKey">Job Title:</span>
+            <span className="rightbarInfoValue">Manager</span>
           </div>
         </div>
         <h4 className="rightbarTitle">User friends</h4>

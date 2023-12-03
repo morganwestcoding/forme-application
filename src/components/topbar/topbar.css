@@ -21,7 +21,7 @@
 }
 
 .searchbar{
-width: 100%;
+width: 70%;
 height: 30px;
 background-color: white;
 border-radius: 30px;
@@ -55,9 +55,16 @@ align-items: center;
 }
 
 .topbarLink{
-    margin-right: 10px;
+    margin-right: 7px;
     font-size: 14px;
     cursor: pointer;
+    color: white; /* Set icon color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.topbarLink:hover, .topbarLink:active, .topbarLink:focus {
+    text-decoration: none; /* Remove underline on hover, active, and focus states */
+    color: white; /* Maintain white color on hover, active, and focus states */
 }
 
 .topbarIcons{
@@ -65,9 +72,16 @@ align-items: center;
 }
 
 .topbarIconItem{
+    color: white;
+    text-decoration: none; 
     margin-right: 15px;
     cursor: pointer;
     position: relative;
+}
+
+.topbarIconItem a:hover, .topbarIconItem a:active, .topbarIconItem a:focus {
+    text-decoration: none; /* Remove underline on hover, active, and focus states */
+    color: white; /* Maintain white color on hover, active, and focus states */
 }
 
 .topbarIconBadge{
