@@ -6,7 +6,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import HomeIcon from '@mui/icons-material/Home';
 
-export default function Topbar() {
+export default function Topbar({user}) {
   return (
     <div className="topbarContainer">
        <div className="topbarLeft">
