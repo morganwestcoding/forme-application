@@ -39,7 +39,7 @@ export default function Topbar() {
               <CircleNotificationsIcon/>
             </div>
             <div className="topbarIconItem">
-            <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+            <img src={user.profilePicture} alt="" className="topbarImg" />
             </div>
             
           </div>
