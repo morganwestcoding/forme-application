@@ -6,7 +6,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import HomeIcon from '@mui/icons-material/Home';
 
-export default function Topbar({user}) {
+export default function Topbar() {
   return (
     <div className="topbarContainer">
        <div className="topbarLeft">
@@ -39,7 +39,7 @@ export default function Topbar({user}) {
               <CircleNotificationsIcon/>
             </div>
             <div className="topbarIconItem">
-            <img src={user.profilePicture} alt="" className="topbarImg" />
+            <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
             </div>
             
           </div>
