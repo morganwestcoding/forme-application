@@ -11,7 +11,7 @@ export default function Topbar() {
     <div className="topbarContainer">
        <div className="topbarLeft">
         <span className="logo">
-          <img src="/assets/logo-white.png" alt=""/>
+          <img src={process.env.PUBLIC_URL + "/assets/logo-white.png"} alt=""/>
         </span>
        </div>
        <div className="topbarCenter">
@@ -39,7 +39,7 @@ export default function Topbar() {
               <CircleNotificationsIcon/>
             </div>
             <div className="topbarIconItem">
-            <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+            <img src={process.env.PUBLIC_URL + "/assets/person/1.jpeg"} alt="" className="topbarImg" />
             </div>
             
           </div>
