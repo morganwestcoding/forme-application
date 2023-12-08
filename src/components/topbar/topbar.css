@@ -1,7 +1,7 @@
 .topbarContainer{
     height: 50px;
     width: 100%;
-    background-color: #000000;
+    background-color: #bb8f60;
     display: flex;
     align-items: center;
     position: sticky;
@@ -10,14 +10,15 @@
 }
 
 .topbarLeft{
-    flex:3;
+    flex:4;
 }
 
 .logo img{
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-    margin-left: 20px;
+width: 90px;
+height: 90px;
+object-fit: contain;
+margin-left: 20px;
+align-items: center; 
 }
 
 .searchbar{
@@ -44,10 +45,10 @@ align-items: center;
 }
 
 .topbarCenter{
-    flex:5;
+    flex:6;
 }
 .topbarRight{
-    flex:5;
+    flex: 3;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,6 +70,7 @@ align-items: center;
 
 .topbarIcons{
     display: flex;
+    align-items: center; 
 }
 
 .topbarIconItem{
@@ -97,6 +99,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
     font-size: 12px;
+    
 }
 
 .topbarImg{
@@ -105,4 +108,5 @@ align-items: center;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+    align-items: center; 
 }

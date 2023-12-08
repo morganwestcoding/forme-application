@@ -1,6 +1,6 @@
 import "./sidebar.css";
 import FeedIcon from '@mui/icons-material/Feed';
-import RssFeedIcon from '@mui/icons-material/RssFeed';
+import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import GroupsIcon from '@mui/icons-material/Groups';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
@@ -9,6 +9,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import EventIcon from '@mui/icons-material/Event';
 import {Users} from "../../dummyData"
 import CloseFriend from "../closeFriend/CloseFriend";
+import StoreIcon from '@mui/icons-material/Store';
 
 export default function Sidebar() {
   return (
@@ -16,7 +17,7 @@ export default function Sidebar() {
     <div className="sidebarWrapper">
       <ul className="sidebarList">
         <li className="sidebarListItem">
-          <RssFeedIcon className="sidebarIcon"/>
+          <DynamicFeedIcon className="sidebarIcon"/>
           <span className="sidebarListItemText">Feed</span>
         </li>
         <li className="sidebarListItem">
@@ -24,12 +25,8 @@ export default function Sidebar() {
           <span className="sidebarListItemText">Chat</span>
         </li>
         <li className="sidebarListItem">
-          <VideoLibraryIcon className="sidebarIcon"/>
-          <span className="sidebarListItemText">Videos</span>
-        </li>
-        <li className="sidebarListItem">
-          <GroupsIcon className="sidebarIcon"/>
-          <span className="sidebarListItemText">Group</span>
+          <StoreIcon className="sidebarIcon"/>
+          <span className="sidebarListItemText">Market</span>
         </li>
         <li className="sidebarListItem">
           <BookmarkIcon className="sidebarIcon"/>

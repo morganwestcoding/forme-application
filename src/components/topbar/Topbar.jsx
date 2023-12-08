@@ -30,19 +30,20 @@ export default function Topbar() {
             <div className="topbarIconItem">
             <Link to="/profile" className="topbarLink">
               <PersonIcon />
-              <span className="topbarIconBadge">1</span>
             </Link>
             </div>
             <div className="topbarIconItem">
               <ChatIcon/>
-              <span className="topbarIconBadge">1</span>
             </div>
             <div className="topbarIconItem">
               <CircleNotificationsIcon/>
-              <span className="topbarIconBadge">1</span>
             </div>
+            <div className="topbarIconItem">
+            <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+            </div>
+            
           </div>
-          <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+         
         </div>
     </div>
         
