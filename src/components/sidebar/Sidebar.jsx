@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./sidebar.css";
 import FeedIcon from '@mui/icons-material/Feed';
 import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
@@ -25,8 +26,10 @@ export default function Sidebar() {
           <span className="sidebarListItemText">Chat</span>
         </li>
         <li className="sidebarListItem">
+        <Link to="/market">
           <StoreIcon className="sidebarIcon"/>
           <span className="sidebarListItemText">Market</span>
+        </Link>
         </li>
         <li className="sidebarListItem">
           <BookmarkIcon className="sidebarIcon"/>
