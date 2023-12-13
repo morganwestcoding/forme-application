@@ -26,8 +26,8 @@ export default function Sidebar() {
           <span className="sidebarListItemText">Chat</span>
         </li>
         <li className="sidebarListItem">
-        <Link to="/market">
-          <StoreIcon className="sidebarIcon"/>
+        <StoreIcon className="sidebarIcon"/>
+          <Link to="/market">
           <span className="sidebarListItemText">Market</span>
         </Link>
         </li>
