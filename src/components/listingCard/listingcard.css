@@ -1,0 +1,51 @@
+/* Container for the entire card */
+.card-container {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Equivalent to 2 in Tailwind's spacing scale */
+    width: 100%;
+  }
+  
+  /* Container for the image and heart button */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem; /* Equivalent to xl in Tailwind's border-radius scale */
+    aspect-ratio: 1; /* Equivalent to aspect-square */
+    width: 100%;
+  }
+  
+  /* Styling for the image */
+  .card-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Absolute positioning for the heart button */
+  .heart-button {
+    position: absolute;
+    top: 0.75rem; /* Equivalent to 3 in Tailwind's spacing scale */
+    right: 0.75rem;
+  }
+  
+  /* Styles for the title */
+  .card-title {
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind's font-size scale */
+    font-weight: 600; /* Equivalent to font-semibold */
+  }
+  
+  /* Styles for the location and services text */
+  .text-light {
+    color: #6b7280; /* Equivalent to text-neutral-500 in Tailwind's color scale */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+  }
+  
+  /* Additional styles might be required for the Button and ServiceSlider components */
+  

@@ -1,12 +1,12 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import Market from './pages/market/Market';
+import Home from './pages/home/Home'
 
 function App() {
   return (
-    <Router>
+   <Router>
       <Routes>
         <Route path="/" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<Home />} />

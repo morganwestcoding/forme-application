@@ -1,0 +1,38 @@
+.your-class {
+    padding-top: 6rem; /* pt-24 */
+    display: grid; /* grid */
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
+    gap: 0.5rem; /* gap-2 */
+  }
+  
+  /* Assuming you have defined breakpoints like this: */
+  @media (min-width: 640px) { /* sm */
+    .your-class {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* sm:grid-cols-2 */
+    }
+  }
+  
+  @media (min-width: 768px) { /* md */
+    .your-class {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* md:grid-cols-3 */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* lg */
+    .your-class {
+      grid-template-columns: repeat(4, minmax(0, 1fr)); /* lg:grid-cols-4 */
+    }
+  }
+  
+  @media (min-width: 1280px) { /* xl */
+    .your-class {
+      grid-template-columns: repeat(5, minmax(0, 1fr)); /* xl:grid-cols-5 */
+    }
+  }
+  
+  @media (min-width: 1536px) { /* 2xl */
+    .your-class {
+      grid-template-columns: repeat(6, minmax(0, 1fr)); /* 2xl:grid-cols-6 */
+    }
+  }
+  

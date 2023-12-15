@@ -1,0 +1,44 @@
+.marketFeed {
+    padding-top: 100px; /* pt-24 */
+    padding: 20px;
+    display: grid; /* grid */
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
+    gap: 8px; /* gap-2 */
+}
+
+@media (min-width: 640px) { /* sm breakpoint */
+    .marketFeed {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* sm:grid-cols-2 */
+    }
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+    .marketFeed {
+        grid-template-columns: repeat(3, minmax(0, 1fr)); /* md:grid-cols-3 */
+    }
+}
+
+@media (min-width: 1024px) { /* lg breakpoint */
+    .marketFeed {
+        grid-template-columns: repeat(4, minmax(0, 1fr)); /* lg:grid-cols-4 */
+    }
+}
+
+@media (min-width: 1280px) { /* xl breakpoint */
+    .marketFeed {
+        grid-template-columns: repeat(5, minmax(0, 1fr)); /* xl:grid-cols-5 */
+    }
+}
+
+@media (min-width: 1536px) { /* 2xl breakpoint */
+    .marketFeed {
+        grid-template-columns: repeat(6, minmax(0, 1fr)); /* 2xl:grid-cols-6 */
+    }
+}
+
+.square {
+    width: 100%; /* Full width of the grid column */
+    padding-top: 100%; /* Padding-top equal to width makes a square */
+    background-color: #b81e1e; /* Background color for the square */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: for some shadow effect */
+  }

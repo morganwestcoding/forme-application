@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 import "./sidebar.css";
 import FeedIcon from '@mui/icons-material/Feed';
 import DynamicFeedIcon from '@mui/icons-material/DynamicFeed';
-import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
-import GroupsIcon from '@mui/icons-material/Groups';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import WorkIcon from '@mui/icons-material/Work';
